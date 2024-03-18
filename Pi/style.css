@@ -1,0 +1,41 @@
+
+.padrão{
+    background-image: url(./imagens/fundo-riscado-abstrato-com-um-efeito-do-grunge\ 1.png);
+    width: 1728px;
+    height: 1119px;
+}
+.container-top,
+.container-bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Cria colunas automáticas */
+    gap: 20px; 
+    margin-bottom: 20px; 
+}
+
+.container-top > div,
+.container-bottom > div {
+    text-align: center; 
+}
+
+.allimg {
+    width: 206px;
+    height: 196px; 
+}
+
+.NomeH{
+    color: #FFF500;
+    font-family: "Reenie Beanie";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.paragrafos{
+    color: #FFF;
+    text-align: center;
+    font-family: "Reenie Beanie";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
